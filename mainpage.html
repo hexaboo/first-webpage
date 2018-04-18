@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pl-Pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Neat Café</title>
+		<link rel="stylesheet" href="styles.css" type="text/css" >
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+<!-- N A V -->
+	<nav>	
+		<ul class="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#">Library</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+		
+<!-- H E A D E R -->
+	<header>
+		<div id="logo">
+			<img src="images/logo.svg">
+		</div>
+	</header>
+
+<!-- B O D Y -->
+
+<!--home-->
+<div class="bg-container">
+	<div class="promo">
+		<div>
+			<img src="images/coffee-promo.png"/>
+			<div class="promo-text">
+			<p>New! Bring your old book to get a free coffee!</p>
+			</div>
+		</div>
+		<div>
+			<img src="images/breakfast-promo.png"/>
+			<div class="promo-text">
+			<p>Breakfast promo! Start your day with us :) </p>
+			</div>
+		</div>
+	</div>
+		<!--hours and address-->
+	<div class="container">
+		<div id="open-hours">
+			<h3>Open hours</h3>
+				<ul>
+					<li>Mon - Thu / 10:00 - 19:00</li>
+					<li>Fri - Sat / 9:00 - 21:00</li>
+					<li>Sun       / 10:00 - 18:00</li>
+				</ul>
+		</div>
+		
+		<div id="main-info">
+			<h3>Address</h3>
+			<p>23 Peter St S</p>
+			<p>Orillia, ON L3V 5A8</p>	
+		</div>
+	</div>
+</div>
+
+
+<!--menu-->
+<div id="menu">
+	<div id="menu-title">
+		<span>Menu</span>
+	</div>
+	<div id="coffee-menu">
+		<div class="menu-icon">
+			<img src="images/coffee-cup.svg" alt="coffee icon"/>
+		</div>
+		<table>
+			<tr>
+				<th>Coffees</th>
+				<th><img src="images/cups.svg" alt="cups icon"  class="menu-icon-mini"/></th>
+				
+			</tr>
+			<tr>
+				<td>Espresso</td>
+				<td>4/5</td>
+			</tr>
+			<tr>
+				<td>Americano</td>
+				<td>5/6</td>
+			</tr>
+			<tr>
+				<td>Flat White</td>
+				<td>5/6</td>
+			</tr>
+			<tr>
+				<td>Latte</td>
+				<td>6/8</td>
+			</tr>
+			<tr>
+				<td>Cappucino</td>
+				<td>6/8</td>
+			</tr>
+			<tr>
+				<td>Irish Coffee</td>
+				<td>7/10</td>
+			</tr>
+			
+			
+		</table>
+	</div>
+	<div id="tea-menu">
+		<div class="menu-icon">
+			<img src="images/tea.svg" alt="tea icon" class=""/>
+		</div>
+		<table>
+			<tr>
+				<th>Teas</th>
+				<th><img src="images/kettle.svg"/ alt="cups icon" class="menu-icon-mini"></th>
+				
+			</tr>
+			<tr>
+				<td>Black</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Green</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Vanilla red</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Chai</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>Lemon white</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>Rose white</td>
+				<td>7</td>
+			</tr>
+		</table>
+	</div>
+	<div id="cake-menu">
+		<div class="menu-icon">
+			<img src="images/cake.svg" alt="cake icon"/>
+		</div>
+		<table>
+			<tr>
+				<th>Desserts</th>
+				<th><img src="images/cake-slice.svg" alt="cake slice icon" class="menu-icon-mini"/></th>
+				
+			</tr>
+			<tr>
+				<td>Brownie</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Apple pie</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Pecan Pie</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>Cherry Cake</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Tiramisu</td>
+				<td>6</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+
+<div id="contact">
+	<div id="contact-title">
+		<p>Contact</p>
+	</div>
+	<form action="#" method="post" class="contact-form">
+		<div class="form-column">
+			<div class="form-group">
+				<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+				<input type="email" name="email" class="form-control" id="mail" placeholder="Email">
+				<input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+			</div>
+		</div>
+		<div class="form-column">
+			<div class="form-group">
+				<textarea name="message" rows="6" class="form-control" id="comment" placeholder="Your message here..."></textarea>
+				<button type="submit" class="btn btn-default">Send</button>
+			</div>
+		</div>        
+</div>
+<!-- F O O T E R -->
+<footer>
+	<div class="copyright">
+		<p>&copy; Zuzanna Wiszowata 2018</p>
+		Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> 
+		from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+		is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" 
+		target="_blank">CC 3.0 BY</a>
+		</div>
+</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
