@@ -2,9 +2,15 @@
 <html lang="pl-Pl">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<meta name="author" content="Zuzanna Wiszowata" >
+		<meta name="robots" content="index, follow" >
+		
 		<title>Neat Café</title>
+		<meta name="description" content="Cozy and calm place for coffe and book lovers" >
+		
 		<link rel="stylesheet" href="styles.css" type="text/css" >
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
 	</head>
 <body>
 <!-- N A V -->
@@ -19,27 +25,27 @@
 	</nav>
 		
 <!-- H E A D E R -->
-	<header>
-		<div id="logo">
-			<img src="logo.svg">
-		</div>
-	</header>
+<header>
+	<div id="logo">
+		<img src="logo.svg">
+	</div>
+</header>
 
 <!-- H O M E -->
-<div class="bg-container">
+<div id="home">
 	<div class="title">
-			<p>Promotions</p>
+			<h1>Promotions</h1>
 	</div>
 	<div class="promo">
 		
 		<div>
-			<img src="coffee-promo.png"/>
+			<img src="coffee-promo.png">
 			<div class="promo-text">
 			<p>New! Bring your old book to get a free coffee!</p>
 			</div>
 		</div>
 		<div>
-			<img src="breakfast-promo.png"/>
+			<img src="breakfast-promo.png">
 			<div class="promo-text">
 			<p>Breakfast promo! Start your day with us :) </p>
 			</div>
@@ -47,20 +53,21 @@
 	</div>
 </div>
 
-
 <!-- M E N U -->
 <div id="menu">
 	<div id="menu-title">
-		<span>Menu</span>
+		<span>
+			<h1>Menu<h1>
+		</span>
 	</div>
-	<div id="coffee-menu">
+	<div class="menu-item">
 		<div class="menu-icon">
-			<img src="coffee-cup.svg" alt="coffee icon"/>
+			<img src="coffee-cup.svg" alt="coffee icon">
 		</div>
 		<table>
 			<tr>
 				<th>Coffees</th>
-				<th><img src="cups.svg" alt="cups icon"  class="menu-icon-mini"/></th>
+				<th><img src="cups.svg" alt="cups icon"  class="menu-icon-mini"></th>
 				
 			</tr>
 			<tr>
@@ -91,9 +98,9 @@
 			
 		</table>
 	</div>
-	<div id="tea-menu">
+	<div class="menu-item">
 		<div class="menu-icon">
-			<img src="tea.svg" alt="tea icon" class=""/>
+			<img src="tea.svg" alt="tea icon" class="">
 		</div>
 		<table>
 			<tr>
@@ -127,14 +134,14 @@
 			</tr>
 		</table>
 	</div>
-	<div id="cake-menu">
+	<div class="menu-item">
 		<div class="menu-icon">
-			<img src="cake.svg" alt="cake icon"/>
+			<img src="cake.svg" alt="cake icon">
 		</div>
 		<table>
 			<tr>
 				<th>Desserts</th>
-				<th><img src="cake-slice.svg" alt="cake slice icon" class="menu-icon-mini"/></th>
+				<th><img src="cake-slice.svg" alt="cake slice icon" class="menu-icon-mini"></th>
 				
 			</tr>
 			<tr>
@@ -157,32 +164,42 @@
 				<td>Tiramisu</td>
 				<td>6</td>
 			</tr>
+			<tr>
+				<td> &nbsp;</td>
+				<td> &nbsp; </td>
+			</tr>
 		</table>
 	</div>
 </div>
 <!-- L I B R A R Y -->
 <div id="library">
+	<div class="title">
+		<h1>Library</h1>
+	</div>
 	<div class="lib-section">
 		<div class="lib-img">
-			<img src="tea.svg" alt="" />
+			<img src="books-1.jpg" alt="" >
 		</div>
 		<div class="lib-text">
-			<p> some text some text some text some text</p>
+			<h3> Header </h3>
+			<p> some text some text some text some text </p>
 		</div>
 	</div>
 	<div class="lib-section">
 		<div class="lib-img">
-			<img src="tea.svg" alt="" />
+			<img src="books-2.jpg" alt="" >
 		</div>
 		<div class="lib-text">
-			<p> some text some text some text some text</p>
+			<h3> Header</h3>
+			<p> some text some text some text some text </p>
 		</div>
 	</div>
 	<div class="lib-section">
 		<div class="lib-img">
-			<img src="tea.svg" alt="" />
+			<img src="books-3.jpg" alt="" >
 		</div>
 		<div class="lib-text">
+			<h3> Header </h3>
 			<p> some text some text some text some text</p>
 		</div>
 	</div>
@@ -194,7 +211,7 @@
 	<!-- C O N T A C T -->
 <div id="contact">
 	<div class="title">
-		<p>Contact</p>
+		<h1>Contact</h1>
 	</div>
 	<div id="contact-info">
 		<!--hours and address-->
