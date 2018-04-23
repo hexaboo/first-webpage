@@ -185,8 +185,8 @@ th {
 	margin: auto;
 }
 .lib-img img{
-	width: 450px;
-	box-shadow: 0px 0px 10px;
+	width: 420px;
+	box-shadow: 0px 0px 10px black;
 	
 }
 .lib-text,
