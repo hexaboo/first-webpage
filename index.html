@@ -16,11 +16,11 @@
 <!-- N A V -->
 	<nav>	
 		<ul class="navigation">
-			<li><a href="#">Home</a></li>
-			<li><a href="#menu">Menu</a></li>
-			<li><a href="#library">Library</a></li>
-			<li><a href="#about-us">About us</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="javascript:void();" onclick="scroll_to('#');">Home</a></li>
+			<li><a href="javascript:void();" onclick="scroll_to('#menu');">Menu</a></li>
+			<li><a href="javascript:void();" onclick="scroll_to('#library');">Library</a></li>
+			<li><a href="javascript:void();" onclick="scroll_to('#about-us');">About us</a></li>
+			<li><a href="javascript:void();" onclick="scroll_to('#contact');">Contact</a></li>
 		</ul>
 	</nav>
 		
@@ -296,5 +296,13 @@
 		target="_blank">CC 3.0 BY</a>
 		</div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		function scroll_to(selector) {
+			$('html,body').animate({scrollTop: $(selector).offset().top}, 1000);
+		return false;
+}
+	</script>
 </body>
 </html>
