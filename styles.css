@@ -27,6 +27,15 @@ h3 {
 	font-family: 'Plafair Display', serif;
 	font-size: 1.2em;
 }
+
+.title {
+	font-size: 2em;
+	text-align: center;
+	color: #f1f1f1;
+	padding: 5px;
+	text-shadow: 0px 0px 5px #281d21;
+
+}
   /* 1. Navigation */
 .navigation {
 	padding: 20px;
@@ -40,7 +49,6 @@ h3 {
 }
 .navigation li {
     display: inline;
-	font-size: 1.2em;
 	background-color: #281d21;
 }
 
@@ -65,10 +73,10 @@ header {
 	border: none;	
 }
 #logo {
-	margin: 110px 40px 40px 40px;
+	margin: 90px 40px 30px 40px;
 }
 #logo img {
-	height: 120px;
+	height: 90px;
 	display: block;      
     margin-left: auto;
     margin-right: auto;
@@ -82,7 +90,7 @@ header {
 	float: center;
 }
 #home {
-	background-color: #281d21;
+	background-color: rgba(40,29,33,0.8);
 	padding: 20px;
 }
 .promo {
@@ -92,7 +100,7 @@ header {
 }
 .promo > div {
 	display: inline-block;
-	margin: 20px;
+	margin: 0px 10px;
 	
 }
 .promo img {
@@ -111,8 +119,8 @@ header {
 	margin: auto;
 	display: block;
 	max-width: 1000px;	
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #menu span {
 	font-size: 2.5em;
@@ -163,7 +171,8 @@ th {
    /* 5. Library */
 #library {
 	padding: 30px;
-	background-color: #281d21;
+	padding-top: 50px;
+	background-color: rgba(40,29,33,0.8);
 }
 .lib-section {
 	margin: 20px;
@@ -187,37 +196,50 @@ th {
 	vertical-align: top;
 	text-indent: 30px;
 }
-@font-face {
-	
-}
 .lib-text h3 {
 	font-family: 
 	color: #e7e7e2;
 	font-weight: bold;
 	font-size: 1.5em;
 }
-   /* 6. About us */
+  /* 6. About us */
 #about-us {
-	
+	padding: 20px;
+	margin: 20px;
 }
+#about-block {
+	margin: auto;
+	display: span;
+	text-align: center;
+}
+.about-text {
+	margin: 10px;
+	color: #f1f1f1;
+	text-indent: 30px;
+	text-decoration: justify;
+	text-align: left;
+	text-shadow: 0px 0px 10px black;
+	display: inline-block;
+	width: 30%;
+	min-width: 150px;
+	vertical-align: top;
+
+}
+.about-text p {
+	margin: 10px;
+}
+  
    /* 7. Contact */
 #contact {
-	background-color: #281d21;
+	background-color: rgba(40,29,33,0.8);
 	margin: auto;
 	text-align: center;
 	padding: 20px;
 	margin-top: 30px;
 }
-.title {
-	font-size: 2.5em;
-	text-align: center;
-	color: #f1f1f1;
-	padding: 10px;
-}
 #open-hours,
 #address {
 	font-style: bold;
-	
 	color: #ffff66;
 	display: inline-block;
 	margin: 20px;
@@ -249,7 +271,7 @@ th {
 	padding: 10px;
 	vertical-align: top;
 }
-.form-group input{
+.form-group input {
 	margin: 10px;
 	display: block;
 	padding: 10px;	
